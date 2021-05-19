@@ -1,0 +1,13 @@
+lang = input("Enter language: ")
+import mysql.connector as mysql
+db = mysql.connect( host = "localhost", user = "root",passwd = "learningmysql",database = "world")
+cursor = db.cursor()
+query = "Select c.name from country c inner join countrylanguage cl on c.code = cl.countrycode wher  cl.language = “english” 
+order by c.name asc"
+cursor.execute(query)
+records = cursor.fetchall()
+for record in records:
+    print ("Countries that speak:" lang "include:" record)
+	
+ 
+ 
