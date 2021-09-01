@@ -1,5 +1,6 @@
 This is a repository used with the coursera course on tools for Data Scientists using Python and SQL
-I have also added other interesting programs ussing python and MYSQL
+I have also added other interesting programs using Python and MYSQL
 - script4.py - finds out in what country is the entered language spoked.  Uses MYSQL world sample database.
-- Zillowsaves.py
-- Zillowviews.csv
+- zillowtest6.py - tallys views and saves over three months and prints monthly totals
+- Zillow views-saves.csv - raw datafile used by zillowtest6.py
+- Anagram.py - takes two strings as inout and sees if the letters all match ie: an anagram else print msg indicating not an anagram 
